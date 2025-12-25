@@ -7,35 +7,29 @@ A simple machine learning app that predicts the probability of diabetes from pat
 - Interactive web app interface
 
 ## Demo
-Follow the link: https://diabetes-predictor-model-app.streamlit.app
+Follow the link: https://diabetes-predictor-model-app.streamlit.app!
 
 ## How to Run Locally
 
 1. Clone the repository:
-   
-git clone <your-repo-url>
-cd diabetes-risk-predictor
+<pre>git clone <your-repo-url>
+cd diabetes-risk-predictor</pre>
 
 
 2. Install dependencies:
-   
-pip install -r requirements.txt
-
+<pre>pip install -r requirements.txt</pre>
 
 3. Run the Streamlit app:
-
-streamlit run app.py
-
+<pre>streamlit run app.py</pre>
 
 4. Open the app in your browser (Streamlit will provide the link).
 
 ## Dataset
-This model was trained on a publicly available diabetes dataset from Kaggle (link: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download)
+This model was trained on a publicly available diabetes dataset from Kaggle (link: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download).
 
 ## Technologies Used
 - Python
 - scikit-learn (Logistic Regression, StandardScaler)
 - Streamlit
 - Pandas
-
-Joblib (Model serialization)
+- Joblib
